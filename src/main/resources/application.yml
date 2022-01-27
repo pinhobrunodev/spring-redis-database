@@ -1,0 +1,9 @@
+spring:
+  redis:
+    host: localhost
+    port: 6378
+    password: 123
+
+#redis-cli -h localhost -p 6378
+#AUTH 123
+#KEYS *

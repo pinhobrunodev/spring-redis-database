@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  redis-compose:
+    image: redis:latest
+    command: redis-server --requirepass 123 --appendonly yes
+    hostname: localhost
+    ports:
+      - "6378:6379"
